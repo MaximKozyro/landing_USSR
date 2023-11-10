@@ -1,0 +1,54 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.header{
+    width: 100%;
+}
+
+.black_bg{
+    background-color: #222222;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.wrapper{
+    width: 1184px;
+    margin: 0 auto;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contacts_left{
+    display: flex;
+    gap: 28px;
+}
+
+.contacts_item{
+    display: flex;
+    align-items: center ;
+    gap: 8px;
+
+}
+
+.contacts_link{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contacts_right{
+}
+
+.contact_us{
+    font-size: 14px;
+    color: #4F8FF0;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+}
